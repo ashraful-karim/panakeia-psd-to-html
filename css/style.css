@@ -1,0 +1,369 @@
+/*====================================
+--CSS code structure
+1. Global CSS
+2. Typography
+3. Header Section
+4. Banner Section
+5. Our News Section
+6. Newsletter Section
+7. Signup section
+8. Footer Section
+9. Footer Bottom section
+
+=====================================*/
+/* 1.0 Global CSS Start */
+/*Google Fonts Lato*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,700');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color:#f6f9f9;
+	color: #31353e;
+}
+
+/* Global CSS End*/
+
+/* 2.0 Typography start */
+h1{
+	font-size: 72px;
+	font-family: 'Roboto Slab', serif;
+	color: #ffffff;
+	font-weight: 300;
+}
+h2{
+	font-size: 30px;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+}
+p{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #31353e;
+}
+
+.container{
+	width: 1140px;
+	margin:0 auto;
+}
+/* 2.0 Typography End */
+
+/* 3.0 Header Section Start*/
+header{
+	background: #edeff1;
+	padding: 30px 0px;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+}
+.logo:hover{
+	cursor: pointer;
+}
+.navbar{
+	float: right;
+}
+
+.navbar ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.navbar ul li{
+	display: inline-block;
+	padding: 15px;
+	-webkit-transition: ease 0.4s all;
+	-o-transition: ease 0.4s all;
+	-moz-transition: ease 0.4s all;
+	transition: ease 0.4s all;
+	transform: scale(1);
+	border-radius: 50px;
+	}
+.navbar ul li:hover{
+	background: #dd4b2b;
+	color: #ffffff;
+	
+	transform: scale(0.8);
+}
+.navbar ul li a{
+	padding: 10px 10px;
+	text-decoration:none;
+	font-size: 18px;
+	color:#31353e;
+	font-family: 'Roboto Slab', serif;
+	
+}
+.navbar ul li:hover a{
+	color: #fff;
+	transition: 0.4s all;
+}
+
+/* 3.0 Header Section End*/
+
+
+/*4.0 Banner Section End*/
+.banner{
+	background: url('../img/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+	padding: 400px 0px 200px 0px;
+	position: relative;
+}
+
+.col-4 {
+	float: left;
+	width: 33.33%;
+	margin-top: 100px;
+	
+}
+.content{
+	transform: scale(1);
+	-webkit-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	transition: ease 0.5s all;
+}
+.content:hover{
+	transform: scale(1.2);
+	cursor:pointer;
+}
+.col-4 img{
+	border-radius: 100%;
+}
+.col-4 h2{
+	margin: 0px 0px;
+}
+.col-4 p {
+    color: #fff;
+    width: 98%;
+    margin: 30px auto;
+}
+.read-more-btn {
+    width: 210px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #612316;
+    position: absolute;
+    border: none;
+    bottom: 120px;
+    left: 44%;
+    -webkit-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	transition: ease 0.5s all;
+}
+.read-more-btn:hover{
+	background: #dd4b2b;
+	color: #fff;
+	transition: ease 0.5s all;
+	cursor: pointer;
+}
+/*4.0 Banner Section End*/
+
+/* 5.0 Our News Section start*/
+
+.our_news{
+	overflow: hidden;
+	padding: 80px 0px;
+	text-align: center;
+	background: #edeff1;
+}
+.our_news h2{
+	color: #31353e;
+	}
+
+.col-3 {
+	float: left;
+	width: 33.33%;
+	margin-top: 70px;
+	transform: scale(1);
+	-webkit-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	transition: ease 0.5s all;
+}
+.col-3 img{
+	 -webkit-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	transition: ease 0.5s all;
+	
+}
+.col-3 img:hover{
+	transform: scale(0.8);
+	cursor:pointer;
+}
+.col-3 h2 {
+	margin-top: 30px;
+}
+.col-3 p {
+	padding: 10px 45px 30px 45px;
+	line-height: 30px;
+	/* margin: 0 auto; */
+}
+.read-more {
+    width: 165px;
+    height: 50px;
+    border: 0px;
+    background: #fff;
+    border-radius: 50px;
+    color: #4e5159;
+    -webkit-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	transition: ease 0.5s all;
+}
+.read-more:hover{
+	background: #dd4b2b;
+	color: #fff;
+	transition: ease 0.5s all;
+	cursor: pointer;
+}
+/* 5.0 Our News Section End*/
+
+/* 6.0 Newsletter Section Start*/
+
+.newsletter{
+	padding: 180px 0px;
+	overflow: hidden;
+	background: url('../img/newsletter-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+}
+.newsletter h2 {
+    margin-top: 80px;
+}
+.newsletter p{
+	margin: 20px 0px;
+	color: #fff;
+}
+.shadow {
+	position: absolute;
+	background: black;
+	width: 100%;
+	height: 360px;
+	top: 0;
+	left: 0;
+	opacity: 0.7;
+}
+
+.email {
+	border: 1px solid white;
+	background: transparent;
+	width: 300px;
+	height: 50px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 0px 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	position: relative;
+}
+.newsletter button {
+	height: 51px;
+	width: 180px;
+	border: 0px;
+	border-radius: 50px;
+	background: #fff;
+	margin-left: -80px;
+	font-size: 18px;
+	transition: ease 0.5s all;
+	border: 0px solid #ffffff;
+	position: absolute;
+	left: 62%;
+}
+.newsletter button:hover{
+	background: #dd4b2b;
+	color: #fff;
+	transition: ease 0.5s all;
+	cursor: pointer;
+}
+/* 6.0 Newsletter Section End*/
+
+/* 7.0 signup Section End*/
+
+.signup{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 50px;
+
+}
+.signup h2{
+	color: #191b29;
+	font-size: 30px;
+}
+.col-6 {
+	float: left;
+	width: 50%;
+	margin-top: 50px;
+}
+.col-6 img {
+	width: 100%;
+}
+.signup h2 {
+	margin-top: 50px;
+}
+.signup p{
+	width: 90%;
+	margin: 30px 0px;
+}
+.signup-btn {
+	width: 210px;
+	height: 54px;
+	background: #4b4e73;
+	border: 0px;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 18px;
+	-webkit-transition: ease 0.5s all;
+	-o-transition: ease 0.5s all;
+	-moz-transition: ease 0.5s all;
+	transition: ease 0.5s all;
+}
+.signup-btn:hover{
+	background:#dd4b2b;
+}
+.right {
+	padding-left: 10%;
+}
+/* 7.0 signup Section End*/
+
+/* 8.0 Footer Start */
+.footer{
+	background: #d75d0e;
+	overflow: hidden;
+	padding-bottom: 80px;
+}
+.footer ul li{
+	margin-bottom: 10px;
+	list-style: none;
+}
+.footer ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+/* 8.0 Footer section End */
+
+/* 9.0 Footer section Start */
+.footer-bottom{
+	background:url('../img/footer-bg.jpg');
+	overflow: hidden;
+	padding-top: 80px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+.footer-bottom p{
+	color: #fff;
+}
+/* 9.0 Footer section End */

@@ -12,7 +12,7 @@
 
 =====================================*/
 /* 1.0 Global CSS Start */
-/*Google Fonts Lato*/
+/*Google Fonts Roboto and Roboto Slab*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,700');
 
 
@@ -57,7 +57,7 @@ p{
 /* 3.0 Header Section Start*/
 header{
 	background: #edeff1;
-	padding: 30px 0px;
+	padding: 20px 0px;
 	overflow: hidden;
 }
 .logo{
@@ -107,7 +107,7 @@ header{
 /* 3.0 Header Section End*/
 
 
-/*4.0 Banner Section End*/
+/*4.0 Banner Section start*/
 .banner{
 	background: url('../img/header-bg.jpg');
 	background-repeat: no-repeat;
@@ -169,7 +169,7 @@ header{
 }
 /*4.0 Banner Section End*/
 
-/* 5.0 Our News Section start*/
+/* 5.0 Our News Section Start*/
 
 .our_news{
 	overflow: hidden;
@@ -291,7 +291,7 @@ header{
 }
 /* 6.0 Newsletter Section End*/
 
-/* 7.0 signup Section End*/
+/* 7.0 signup Section Start*/
 
 .signup{
 	overflow: hidden;
